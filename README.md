@@ -1,5 +1,5 @@
                                   **Problem for R3 Batch**
-                       Walmart Store System BPlus Tree Implementation
+                       Wallmart Store System BPlus Tree Implementation
 
 
 Using a tree data structure, design and develop a system for Walmart Store. In Walmart Store, there are different aisles. In one aisle there are dairy products. In the other there are pulses and grains. In the third there are bath and cleaning products. In fourth aisle they have ready to eat food items. In 5th aisle there are vegetables. Maintain an array of pointers to tree nodes. For each aisle, there is a tree. The nodes in the tree are the items in that aisle with information like the item id, item_name, quantity, expiry_date, threshold quantity. Now there is another tree of bills. When a user comes to the Walmart store, he should be billed for whatever items he buys. The corresponding quantity of each item is to be decremented in the main array of tree pointers of items. The array of aisles should be sorted according to the aisle_number. Items are stored by item_id in each tree of the aisle. In short the item id is the key of the node and and , item_name, quantity, expiry_date, threshold quantity is the info at that node.
